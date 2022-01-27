@@ -8,7 +8,7 @@ If you want to put your projects inside a webserver using docker, this template 
 * Run "docker compose up -d" to start your docker container using image created with DockerFile
 * Your project will run in http://localhost:80
 
-## Installation a new Angular project ##
+## Installing a new Angular project ##
 
 * Create a new directory to every new Angular project you want
 * Put inside the directory a copy of .htaccess like project_example/.htaccess and change the last command to put your directory name.
