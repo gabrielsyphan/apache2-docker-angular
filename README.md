@@ -4,7 +4,7 @@ If you want to put your projects inside a webserver using docker, this template 
 
 ## Running Apache ##
 
-* Create an image using "docker build -t apache2 debian:latest ."
+* Create an image using "docker build -t apache2/debian:latest ."
 * Run "docker compose up -d" to start your docker container using image created with DockerFile
 * Your project will run in http://localhost:80
 
