@@ -24,5 +24,3 @@ CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
 # Rewrite Apache conf and restart
 RUN a2enmod rewrite
 RUN service apache2 restart
-
-# Dockerfile powered by Lucas Gabriel @GovBr (lucas.oliveira)
