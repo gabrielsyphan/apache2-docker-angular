@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  apache2_debian:
+    image: apache2/debian:latest
+    container_name: apache_debian_container
+    restart: always
+    volumes:
+      - ./www:/var/www/html
+    ports:
+      - "80:80"
