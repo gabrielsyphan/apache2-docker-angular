@@ -1,6 +1,6 @@
 # Apache template to Angular #
 
-If you want to put your projects inside a webserver using docker, this template will help you to this.
+If you want to put your projects inside a webserver using docker, this template will help you to do this.
 
 ## Running Apache ##
 
